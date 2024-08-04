@@ -1,0 +1,143 @@
+.pr li:hover{
+    color: red;
+    cursor: pointer;
+}
+.pr{
+    display: flex;
+}
+.pr li{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.con1{
+    width: 1490px;
+    height: 150px;
+    background-color: black;
+}
+.pr a{
+    text-decoration: none;
+    color: white;
+}
+.pr img{
+    margin-top: 28px;
+    margin-left:120px;
+    width: 80px;
+    height: 80px;
+}
+.combo1{
+    margin-top: 10px;
+    margin-left: 350px;
+}
+.combo1 img{
+    width: 350px;
+    height: 450px;
+}
+.combo1 h1{
+    margin-left: 95px;
+}
+.combo1{
+    display: flex;
+}
+.inf1{
+    margin-left: 50px;
+}
+.inf1 h1{
+    margin-left: 40px;
+}
+.inf1 p{
+    font-size: 30px;
+    text-align: center;
+}
+.inf1 button{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width:300px;
+    font-size: 18px;
+}
+.lenh1{
+    display: flex;
+    margin-top: 80px;
+    margin-left: 100px;
+}
+.lenh1{
+    font-size: 30px;
+}
+.lenh1 p{
+    margin-left: 20px;
+}
+.lenh1 a{
+    text-decoration: none;
+    color: #000;
+}
+.lenh1 a:hover{
+    color: red;
+}
+.butter{
+    display: flex;
+}
+.but p{
+    color: white;
+    font-size: x-large;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.butter li{
+    color: white;
+    font-size: 30px;
+    margin-left: 550px;
+}
+.butter a{
+    text-decoration: none;
+}
+.but{
+    margin-top: 50px;
+    display: inline-block;
+    width: 1466px;
+    height: 300px;
+    background-color: #000;
+}
+.combo1{
+    border-style: outset;
+    width: 750px;
+}
+.inf1 h2{
+    margin-left: 50px;
+}
+.inf2{
+    margin-left: 30px;
+}
+.inf3{
+    display: flex;
+    height: 50px;
+}
+.inf3 p{
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.inf1 p{
+    margin-top: 5px;
+}
+.inf1 button{
+    margin-left: 10px;
+}
+.gia{
+    margin-left: 120px;
+    display: flex;
+}
+#c:hover{
+    cursor: pointer;
+}
+#t:hover{
+    cursor: pointer;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

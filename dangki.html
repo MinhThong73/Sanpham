@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dangki.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="Login">
+            <img src="https://static.kfcvietnam.com.vn/images/web/signin/lg/register.jpg?v=gODYQ3" alt="">
+            <div class="Form">
+                <form action="" id="form" style="width: 500px;
+            margin: 130px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;">
+                    <label for="Name" style="font-weight: bold;
+                                margin-bottom: 5px;">Name</label><br>
+                    <input type="text" id="name" name="Name" style="border: 1px solid #ccc;
+                                                        padding: 5px;
+                                                        box-sizing: border-box;
+                                                        margin-bottom: 10px;"><br>
+
+                    <label for="UserName" style="font-weight: bold;
+                                margin-bottom: 5px;">UserName</label><br>
+                    <input type="text" id="UserName" name="UserName" style="border: 1px solid #ccc;
+                                                        padding: 5px;
+                                                        box-sizing: border-box;
+                                                        margin-bottom: 10px;"><br>
+
+                    <label for="Password" style="font-weight: bold;
+                                margin-bottom: 5px;">Password</label><br>
+                    <input type="Password" id="password" name="Password" style="border: 1px solid #ccc;
+                                padding: 5px;
+                                box-sizing: border-box;
+                                margin-bottom: 10px;"><br>
+                    <button type="Submit" style="background-color: #4caf50;
+                                                        color: white;
+                                                        padding: 10px 20px;
+                                                        border: none;
+                                                        cursor: pointer;
+                                                        font-weight: bold;" id="button">Submit</button>
+            <div class="lenh">
+                <a href="./Sanpham.html">Quay Về</a>    
+                <a href="./Login.html">Đăng Nhập</a>
+                </form>
+            </div>
+            </div>
+            <script>
+                var a = document.getElementById("name");
+                var b = document.getElementById("password");
+                var c = document.getElementById("UserName");
+                d = document.getElementById("button");
+                tam = 0;
+                d.addEventListener("click", function () {
+                    if (a.value === '') {
+                        tam = tam + 1;
+                    }
+                    if (b.value === '') {
+                        tam = tam + 1;
+                    }
+                    if (c.value === '') {
+                        tam = tam + 1;
+                    }
+                });
+                d.addEventListener("click", function () {
+                    if (tam < 1) {
+                        alert("Đăng Kí Thành Công")
+                    } else { alert("Đăng Kí Không Thành Công") }
+                    console.log(tam)
+                })
+                console.log(tam)
+            </script>
+</body>
+
+</html>

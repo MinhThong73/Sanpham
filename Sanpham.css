@@ -1,0 +1,130 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pr{
+    display: flex;
+}
+.pr li{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.con1{
+    width: 1490px;
+    height: 150px;
+    background-color: black;
+}
+.pr a{
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    color: red;
+    font-size: 60px;
+    cursor: pointer;
+}
+.img img{
+    margin-top: 100px;
+    margin-left: 90px;
+    margin-right: 40px;
+}
+.pr1{
+    display: flex;
+}
+.pr1 li{
+    font-size: 50px;
+    margin-top: 30px;
+    margin-left: 150px;
+    margin-right: 130px;
+}
+.pr1 a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: red;
+}
+.TatCa{
+    display: flex;
+    height: 610px;
+}
+.Card{
+    margin-top: 100px;
+    margin-left: 150px;
+}
+.Price{
+    color: black;
+    font-size: xx-large;
+    margin-left: 100px;
+}
+.Card button{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width:300px;
+    font-size: 18px;
+}
+.Card button:hover{
+    opacity: 0.7;
+}
+.Card h1{
+    margin-left: 100px;
+}
+.but{
+    margin-top: 50px;
+    display: inline-block;
+    width: 1466px;
+    height: 300px;
+    background-color: #000;
+}
+.butter{
+    display: flex;
+}
+.but li{
+}
+.but p{
+    color: white;
+    font-size: x-large;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.butter li{
+    color: white;
+    font-size: 30px;
+    margin-left: 550px;
+}
+.butter a{
+    text-decoration: none;
+}
+.pr img{
+    margin-top: 28px;
+    margin-left:120px;
+    width: 80px;
+    height: 80px;
+}
+.Card a{
+    list-style-type: none;
+    cursor: pointer;
+    color: white;
+    
+}
+.Card a:hover{
+    font-size: 18px;
+}
+.Card{
+    border-style: ridge;
+}
+.banner{
+    display: block;
+    width: 100%;
+}
+.banner img{
+    display: block;
+    width: 100%;
+    height: auto;
+}

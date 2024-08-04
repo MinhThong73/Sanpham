@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Login.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="Login">
+            <img src="https://static.kfcvietnam.com.vn/images/web/signin/lg/register.jpg?v=gODYQ3" alt="">
+            <div class="Form">
+                <form action="" id="form" style="width: 500px;
+        margin: 130px;
+        padding: 20px;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;">
+                    <label for="Name" style="font-weight: bold;
+               margin-bottom: 5px;">UserName</label><br>
+                    <input type="text" id="name" name="Name" style="border: 1px solid #ccc;
+                                       padding: 5px;
+                                       box-sizing: border-box;
+                                       margin-bottom: 10px;"><br>
+                    <label for="Password" style="font-weight: bold;
+                            margin-bottom: 5px;">Password</label><br>
+                    
+                    <input type="Password" id="Password" name="Password" style="border: 1px solid #ccc;
+                            padding: 5px;
+                            box-sizing: border-box;
+                            margin-bottom: 10px;"><br>
+                    <button type="Submit" style="background-color: #4caf50;
+                                                    color: white;
+                                                    padding: 10px 20px;
+                                                    border: none;
+                                                    cursor: pointer;
+                                                    font-weight: bold;">Submit</button>
+                <div class="lenh">   
+                    <a href="./Sanpham.html">Quay Về</a>
+                    <a href="./dangki.html">Đăng Kí</a>
+                </div>
+                </form>
+            </div>
+            <script>
+                var form = document.getElementById("form")
+                form.addEventListener("submit", function () {
+                    let name = document.getElementById("name").value;
+                    let password = document.getElementById("Password").value;
+                    if (password == "1234" && name == "A") {
+                        alert("Đăng Nhập Thành Công")
+                    }
+                    else {
+                        alert("Đăng Nhập Không Thành Công")
+                    }
+                })
+            </script>
+        </div>
+    </div>
+</body>
+
+</html>
